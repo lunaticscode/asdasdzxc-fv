@@ -1,0 +1,17 @@
+#article_title {
+    font-size: 20px;
+}
+
+#article_desc {
+    font-size: 20px;
+}
+
+#article_img_wrapper{
+    width: 500px;
+    height: 300px;
+}
+
+#article_img{
+    width: 100%;
+    height: max-height: 300px;
+}

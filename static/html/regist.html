@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <script src="/static/js/regist.js" defer></script>
+    </head>
+    <body>
+        <br/><br/><br/>
+        <div style="text-align: center" >글 등록</div>
+        <br/>
+        <div style="width: 80%; margin-left:10%" >
+            <form action="http://localhost:5000/article/upload" method="post" enctype="multipart/form-data">
+                <input style="width: 100%" name="title" placeholder="title 입력" />
+                <br/><br/>
+                <input style="width: 100%" name="description" placeholder="description 입력" />
+                <br/><br/>
+                <input id="img_selector" name="article_img" type="file" />
+                <div style="margin: 15px 0px 30px 0px; width: 500px; height: 250px;">
+                    <img style="width: 100%; max-height: 250px;" id="img_preview" src="#" alt="Empty image" />
+                </div>
+                <button type="submit" >제출</button>
+            </form>
+        </div>
+    </body>
+</html>
